@@ -33,4 +33,5 @@ btn1.addEventListener("click", handleButton1);
 btn2.addEventListener("click", handleButton2);
 copyDiv.addEventListener("click",()=>{
     navigator.clipboard.writeText(copyDiv.innerText);
+    prompt("Your keybord copied sucessful");
 })
